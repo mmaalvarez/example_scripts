@@ -1,1 +1,1 @@
-Examples of code I wrote for my projects
+Examples of code snippets I wrote
