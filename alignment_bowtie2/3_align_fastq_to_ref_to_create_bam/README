@@ -1,0 +1,17 @@
+bowtie2
+
+align fastq files from SRA (ncbi.nlm.nih.gov/sra?term=SRP299499, link in GEO repo) to hg19, to get bam files
+
+## samtools flags
+# - input from standard input (i.e. after a '|')
+# o output to file
+
+SRR13314138	input
+SRR13314132	MSH6-0mM
+SRR13314133	MSH6-1mM
+SRR13314134	SETD2-0mM
+SRR13314135	SETD2-1mM
+
+
+#### sorted + indexed bam files can be visualized with IGV GUI
+bash ~/bin/IGV_Linux_2.15.2/igv.sh

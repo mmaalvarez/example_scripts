@@ -1,0 +1,13 @@
+example: SRA data from ncbi.nlm.nih.gov/sra?term=SRP299499
+
+if downloading straighforward from site, quality info is missing (only '????...') because of biostars.org/p/447390/
+
+so use sratoolkit (sratoolkit_download_fastq_from_SRA.sh)
+
+5 samples:
+
+SRR13314138	input
+SRR13314132	MSH6-0mM
+SRR13314133	MSH6-1mM
+SRR13314134	SETD2-0mM
+SRR13314135	SETD2-1mM
