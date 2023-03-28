@@ -1,1 +1,1 @@
-Examples of code snippets I wrote
+Some examples of python scripts I wrote
